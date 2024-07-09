@@ -6,7 +6,7 @@
     <MicrosoftExtensionsTimeProviderVersion>8.6.0</MicrosoftExtensionsTimeProviderVersion>
   </PropertyGroup>
   <PropertyGroup Condition="$([MSBuild]::IsTargetFrameworkCompatible($(TargetFramework), 'net9.0'))">
-    <MicrosoftExtensionsVersion>9.0.0-preview.5.24306.7</MicrosoftExtensionsVersion>
+    <MicrosoftExtensionsVersion>9.0.0-preview.6.24327.7</MicrosoftExtensionsVersion>
     <MicrosoftExtensionsTimeProviderVersion>9.0.0-preview.5.24311.7</MicrosoftExtensionsTimeProviderVersion>
   </PropertyGroup>
   <ItemGroup>
