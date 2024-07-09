@@ -23,7 +23,6 @@ public class RetryHelperTests
             1_025,
         };
 #pragma warning restore IDE0028
-    }
 
     [Fact]
     public void IsValidDelay_Ok()
