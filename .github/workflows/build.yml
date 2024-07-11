@@ -2,13 +2,12 @@ name: build
 
 on:
   push:
-    branches: 
+    branches:
       - main
       - release/*
-      - dotnet-vnext
     tags: [ '*' ]
   pull_request:
-    branches: 
+    branches:
       - main
       - release/*
       - dotnet-vnext
