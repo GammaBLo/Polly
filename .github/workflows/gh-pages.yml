@@ -2,12 +2,12 @@ name: github-pages
 
 on:
   push:
-    branches: 
+    branches:
       - main
       - release/*
       - dotnet-vnext
   pull_request:
-    branches: 
+    branches:
       - main
       - release/*
       - dotnet-vnext
@@ -20,6 +20,7 @@ jobs:
 
   build-docs:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
 
     steps:
 
