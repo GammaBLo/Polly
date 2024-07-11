@@ -2,12 +2,11 @@ name: code-scan
 
 on:
   push:
-    branches: 
+    branches:
       - main
       - release/*
-      - dotnet-vnext
   pull_request:
-    branches: 
+    branches:
       - main
       - release/*
       - dotnet-vnext
